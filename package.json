@@ -1,0 +1,20 @@
+{
+  "name": "nodeapi",
+  "version": "1.0.0",
+  "description": "Node API for Todos",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "nodemon index.js"
+  },
+  "author": "Ankit Roy",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  },
+  "dependencies": {
+    "axios": "^0.26.0",
+    "express": "^4.17.3",
+    "node-fetch": "^3.2.0"
+  }
+}
